@@ -1,0 +1,459 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\models\\pointstransferhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\models\\pointstransferhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\models\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\viewmodels\\transferpointsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\viewmodels\\transferpointsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\viewmodels\\payviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\viewmodels\\payviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\home\\transferpoints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\home\\transferpoints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LoyaltyPointsDb/True/SqlTable/dbo.pointsTransferHistories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\home\\simulatepay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\home\\simulatepay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\migrations\\20240406201303_addingtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\migrations\\20240406201303_addingtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\account\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\account\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\migrations\\20240402184305_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\migrations\\20240402184305_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\migrations\\20240405184404_extend_identityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\migrations\\20240405184404_extend_identityuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|c:\\gitrepo\\loyaltypointsexchangesystem\\loyaltypointsexchangesystem\\migrations\\20240409195847_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E30B62-235B-4675-BAD0-3D721C85AFE4}|LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem.csproj|solutionrelative:loyaltypointsexchangesystem\\migrations\\20240409195847_updatedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:05:19.98Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:15:55.852Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T21:06:57.351Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Program.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Program.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:34:45.191Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAewCQAAACXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T16:49:32.562Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAawEsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T16:13:54.838Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:24:19.342Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T19:08:15.424Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240409195847_updatedb.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240409195847_updatedb.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Migrations\\20240409195847_updatedb.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240409195847_updatedb.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Migrations\\20240409195847_updatedb.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAYwFsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T19:58:48.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Models\\ProfileViewModel.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\ProfileViewModel.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Models\\ProfileViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T20:50:10.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T19:43:58.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PointsTransferHistory.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\PointsTransferHistory.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Models\\PointsTransferHistory.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\PointsTransferHistory.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Models\\PointsTransferHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T19:18:08.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:01:44.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PayViewModel.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\PayViewModel.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\ViewModels\\PayViewModel.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\PayViewModel.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\ViewModels\\PayViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:00:28.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransferPointsViewModel.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\TransferPointsViewModel.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\ViewModels\\TransferPointsViewModel.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\ViewModels\\TransferPointsViewModel.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\ViewModels\\TransferPointsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T13:51:19.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:27:35.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransferPoints.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\TransferPoints.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Home\\TransferPoints.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\TransferPoints.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Home\\TransferPoints.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T13:58:19.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.pointsTransferHistories [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LoyaltyPointsDb/True/SqlTable/dbo.pointsTransferHistories.sql",
+              "ToolTip": "dbo.pointsTransferHistories [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-08T13:05:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Account\\_ViewStart.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Account\\_ViewStart.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Account\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:39:14.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SimulatePay.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\SimulatePay.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\Home\\SimulatePay.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\Home\\SimulatePay.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\Home\\SimulatePay.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-07T18:47:48.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240406201303_addingTables.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240406201303_addingTables.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Migrations\\20240406201303_addingTables.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240406201303_addingTables.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Migrations\\20240406201303_addingTables.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T20:13:03.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:37:18.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T16:42:04.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\libman.json",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\libman.json",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\libman.json",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-02T17:53:46.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240405184404_Extend_IdentityUser.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240405184404_Extend_IdentityUser.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Migrations\\20240405184404_Extend_IdentityUser.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240405184404_Extend_IdentityUser.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Migrations\\20240405184404_Extend_IdentityUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T18:44:05.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\appsettings.json",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\appsettings.json",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-01T19:50:08.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240402184305_InitialMigration.cs",
+              "DocumentMoniker": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240402184305_InitialMigration.cs",
+              "RelativeDocumentMoniker": "LoyaltyPointsExchangeSystem\\Migrations\\20240402184305_InitialMigration.cs",
+              "ToolTip": "C:\\GitRepo\\LoyaltyPointsExchangeSystem\\LoyaltyPointsExchangeSystem\\Migrations\\20240402184305_InitialMigration.cs",
+              "RelativeToolTip": "LoyaltyPointsExchangeSystem\\Migrations\\20240402184305_InitialMigration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:43:07.919Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

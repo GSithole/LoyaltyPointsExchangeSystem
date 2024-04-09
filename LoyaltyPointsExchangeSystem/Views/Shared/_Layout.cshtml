@@ -1,0 +1,84 @@
+﻿@inject SignInManager<ApplicationUser> signInManager
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
+
+
+   
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                @if (signInManager.IsSignedIn(User))
+                {
+                    <li class="nav-item">
+                        <form method="get" asp-controller="home" asp-action="Simulatepay">
+                            <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                Simulate Pay
+                            </button>
+                        </form>
+                    </li>
+                    <li class="nav-item">
+                        <form method="get" asp-controller="home" asp-action="TransferPoints">
+                            <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                Tranfer Points to another user
+                                </button>
+                        </form>
+                    </li>
+                }
+            </ul>
+                <ul class="navbar-nav ms-auto">
+                    @if(signInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item">
+                            <form method="post" asp-action="logout" asp-controller="account" >
+                                <button type="submit" class="nav-link btn btn-link py-0" style="width:auto">
+                                    Logout @User.Identity.Name
+                                </button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="account" asp-action="register">
+                                Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-action="login" asp-controller="account">
+                                Login
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            @RenderBody()
+        </div>
+
+        @if (IsSectionDefined("Scripts"))
+        {
+            @RenderSection("Scripts", required: false)
+        }
+    
+</body>
+</html>

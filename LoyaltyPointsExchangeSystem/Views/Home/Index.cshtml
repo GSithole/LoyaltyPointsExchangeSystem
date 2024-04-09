@@ -1,0 +1,104 @@
+﻿@model LoyaltyPointsExchangeSystem.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = "Profile";
+}
+
+<h1 style="text-align: center">User Profile</h1>
+
+<table class="table">
+    <tr>
+        <td>
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.FirstName)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.FirstName)
+            </dd>
+        </td>
+        <td>
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.LastName)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.LastName)
+            </dd>
+        </td>
+        <td>
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+        </td>
+         <td>
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.Gender)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.Gender)
+            </dd>
+        </td>
+        <td>
+            <dt class="col-sm-6">
+                @Html.DisplayNameFor(model => model.Points)
+            </dt>
+            <dd class="col-sm-6">
+                @Html.DisplayFor(model => model.Points)
+            </dd>
+        </td>
+    </tr>
+</table>
+
+<div>
+    <h1 style="text-align: center">Points transaction History</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    points In
+                </th>
+                <th>
+                    points Out
+                </th>
+                <th>
+                    transaction Date
+                </th>
+                <th>
+                    total Points
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.pointsTransferHistory)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.pointIn)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.pointOut)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.transactionDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.totalPoints)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    @* <form method="get" asp-controller="home" asp-action="Simulatepay">
+    <button type="submit" class="btn btn-primary">Simulate Pay</button>
+    </form>
+    <form method="get" asp-controller="home" asp-action="TransferPoints">
+    <button type="submit" class="btn btn-primary">Tranfer Points to another user</button>
+    </form> *@
+</div>
+
+
