@@ -89,31 +89,38 @@ namespace LoyaltyPointsExchangeSystem.Controllers
             {
                 var LoginUser = await userManager.GetUserAsync(User);
                 var userTo = userManager.Users.FirstOrDefault(x => x.Id == model.user);
-
-                LoginUser.Points -= model.pointsToTransfer;
-                PointsTransferHistory pointsTransferHistoryFrom = new PointsTransferHistory()
+                if (LoginUser.Points >= model.pointsToTransfer)
                 {
-                    Id = new Guid(),
-                    pointIn = null,
-                    pointOut = model.pointsToTransfer,
-                    transactionDate = DateTime.Now,
-                    totalPoints = LoginUser.Points
-                };
-                LoginUser.pointsTransferHistory  = new List<PointsTransferHistory> { pointsTransferHistoryFrom };
+                    LoginUser.Points -= model.pointsToTransfer;
+                    PointsTransferHistory pointsTransferHistoryFrom = new PointsTransferHistory()
+                    {
+                        Id = new Guid(),
+                        pointIn = null,
+                        pointOut = model.pointsToTransfer,
+                        transactionDate = DateTime.Now,
+                        totalPoints = LoginUser.Points
+                    };
+                    LoginUser.pointsTransferHistory = new List<PointsTransferHistory> { pointsTransferHistoryFrom };
 
-                userTo.Points = userTo.Points == null ? model.pointsToTransfer : userTo.Points + model.pointsToTransfer;
-                PointsTransferHistory pointsTransferHistoryTo = new PointsTransferHistory()
+                    userTo.Points = userTo.Points == null ? model.pointsToTransfer : userTo.Points + model.pointsToTransfer;
+                    PointsTransferHistory pointsTransferHistoryTo = new PointsTransferHistory()
+                    {
+                        Id = new Guid(),
+                        pointIn = model.pointsToTransfer,
+                        pointOut = null,
+                        transactionDate = DateTime.Now,
+                        totalPoints = userTo.Points,
+                        SourceOfPoints = LoginUser.UserName
+                    };
+                    userTo.pointsTransferHistory = new List<PointsTransferHistory> { pointsTransferHistoryTo };
+
+                    appDbContext.SaveChanges();
+                }
+                else
                 {
-                    Id = new Guid(),
-                    pointIn = model.pointsToTransfer,
-                    pointOut = null,
-                    transactionDate = DateTime.Now,
-                    totalPoints = userTo.Points,
-                    SourceOfPoints = LoginUser.UserName
-                };
-                userTo.pointsTransferHistory = new List<PointsTransferHistory> { pointsTransferHistoryTo };
-
-                appDbContext.SaveChanges();
+                    ModelState.AddModelError("", "You do not have enough points");
+                    return View(model);
+                }
             }
             return RedirectToAction("index", "home");
         }
