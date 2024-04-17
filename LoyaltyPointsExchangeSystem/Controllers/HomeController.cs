@@ -48,7 +48,8 @@ namespace LoyaltyPointsExchangeSystem.Controllers
                     Id = new Guid(),
                     pointIn = (long?)(model.amount / 100),
                     transactionDate = DateTime.Now,
-                    totalPoints = (long?)(model.amount / 100) + user.Points ?? 0
+                    totalPoints = (long?)(model.amount / 100) + user.Points ?? 0,
+                    SourceOfPoints = "Sale"
                 };
                 user.Points += (long?)(model.amount / 100);
                 user.pointsTransferHistory = new List<PointsTransferHistory> { pointsTransferHistory };
@@ -107,7 +108,8 @@ namespace LoyaltyPointsExchangeSystem.Controllers
                     pointIn = model.pointsToTransfer,
                     pointOut = null,
                     transactionDate = DateTime.Now,
-                    totalPoints = userTo.Points
+                    totalPoints = userTo.Points,
+                    SourceOfPoints = LoginUser.UserName
                 };
                 userTo.pointsTransferHistory = new List<PointsTransferHistory> { pointsTransferHistoryTo };
 

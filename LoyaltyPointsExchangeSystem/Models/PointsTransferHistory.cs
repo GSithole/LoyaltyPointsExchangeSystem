@@ -13,6 +13,7 @@ namespace LoyaltyPointsExchangeSystem.Models
         public DateTime transactionDate { get; set; }
         [Display(Name = "Total Points")]
         public long? totalPoints { get; set; }
+        public string? SourceOfPoints { get; set; }
         public string ApplicationUserId { get; set; }
     }
 }
