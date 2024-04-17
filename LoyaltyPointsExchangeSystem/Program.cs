@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddMvc();
-//builder.Services.
 builder.Services.AddDbContextPool<AppDbContext>(options => 
 options.UseSqlServer(builder.Configuration.GetConnectionString("AppDBConnection")));
 

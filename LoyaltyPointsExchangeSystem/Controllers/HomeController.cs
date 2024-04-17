@@ -7,15 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LoyaltyPointsExchangeSystem.Controllers
 {
-    public enum Products
-    {
-        belt = 200,
-        socks = 150,
-        Jean = 500,
-        jacket = 1000,
-        shirt = 300
-    }
-
     public class HomeController : Controller
     {
         private readonly UserManager<ApplicationUser> userManager;
@@ -109,7 +100,7 @@ namespace LoyaltyPointsExchangeSystem.Controllers
                 };
                 LoginUser.pointsTransferHistory  = new List<PointsTransferHistory> { pointsTransferHistoryFrom };
 
-                userTo.Points += model.pointsToTransfer;
+                userTo.Points = userTo.Points == null ? model.pointsToTransfer : userTo.Points + model.pointsToTransfer;
                 PointsTransferHistory pointsTransferHistoryTo = new PointsTransferHistory()
                 {
                     Id = new Guid(),
